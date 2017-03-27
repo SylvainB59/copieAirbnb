@@ -1,0 +1,111 @@
+/*common rules*/
+body {
+  color: #484848;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* end of common rules*/
+
+/*START OF HEADER*/
+
+/*START OF HEADER ASIDE*/
+.tabl, .desk {
+  display: none;
+}
+
+header {
+  border-bottom: 1px #e4e4e4 solid;
+}
+
+header aside {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header aside figure {
+  height: 100%;
+  display: flex;
+  align-content: center;
+}
+
+header aside figure img {
+  height: 60%;
+}
+
+
+/*header aside ul li {
+  display: inline-block;
+  padding: 0 16px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  border-bottom: 2px white solid;
+}
+
+header aside ul li a {
+  padding: 10px 0;
+}
+
+header aside ul li a:hover {
+  border-bottom: 2px #484848 solid;
+}
+
+a {
+  color: #484848;
+  text-decoration: none;
+}*/
+/*END OF HEADER ASIDE*/
+
+/*START OF HEADER SECTION*/
+header section {
+  margin: 24px;
+  display: flex;
+  flex-flow: column;
+}
+
+.titre{
+  color: #ff545f;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 200;
+  width: 80%;
+  height: 200px;
+}
+
+header section article form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulair {
+  border: 1px #e4e4e4 solid;
+  width: 100%;
+  padding: 10px;
+}
+
+.formulair label {
+  /*margin: 15px;*/
+}
+
+.formulair input, .formulair select {
+  border: 0;
+  background: transparent;
+  margin: 15px 0;
+}
+
+header section article ul li {
+  display: inline-block;
+}
+
+/*END OF HEADER SECTION*/
+
+/*END OF HEADER*/
